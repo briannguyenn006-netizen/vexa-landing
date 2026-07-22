@@ -13,8 +13,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vexa - US Fulfillment Partner",
-  description: "Fast, reliable, and scalable fulfillment solutions for eCommerce sellers.",
+  title: "VEXA | Fulfillment & 3PL tại Mỹ cho Seller Việt",
+  description: "VEXA cung cấp dịch vụ nhận hàng, lưu kho, đóng gói và giao hàng nội địa Mỹ dành cho seller Việt Nam.",
+  icons: {
+    icon: "/logo.svg",
+  },
+  openGraph: {
+    title: "VEXA | Fulfillment & 3PL tại Mỹ cho Seller Việt",
+    description: "VEXA cung cấp dịch vụ nhận hàng, lưu kho, đóng gói và giao hàng nội địa Mỹ dành cho seller Việt Nam.",
+    url: "https://vexa.us",
+    siteName: "VEXA",
+    locale: "vi_VN",
+    type: "website",
+    images: [
+      {
+        url: "/logo.svg",
+        width: 64,
+        height: 64,
+        alt: "VEXA Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VEXA | Fulfillment & 3PL tại Mỹ cho Seller Việt",
+    description: "VEXA cung cấp dịch vụ nhận hàng, lưu kho, đóng gói và giao hàng nội địa Mỹ dành cho seller Việt Nam.",
+    images: ["/logo.svg"],
+  },
 };
 
 export default function RootLayout({
